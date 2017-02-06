@@ -1300,7 +1300,8 @@ body {
     margin-right: 23px;
   }
 
-  .main-nav__list-item--footer:last-child {    margin-right: 0;
+  .main-nav__list-item--footer:last-child {
+    margin-right: 0;
   }
 
   .page-footer__design {
