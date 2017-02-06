@@ -128,6 +128,7 @@ body {
 .about-block {
   border-bottom: 1px solid #f9f9f9;
   background-color: #745083;
+  background-image: -moz-linear-gradient(#745083, #322539);
   background-image: linear-gradient(#745083, #322539);
   box-shadow: 0px 4px 30px 0px rgba(32, 25, 39, 0.3);
 }
@@ -268,7 +269,8 @@ body {
 }
 
 .news-events__list {
-  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
 
   color: #454545;
   text-shadow: 1px 1px 0 #ffffff;
@@ -570,7 +572,8 @@ body {
   }
 
   .news-event__item {
-    box-sizing: inherit;
+    -moz-box-sizing: inherit;
+         box-sizing: inherit;
     padding: 15px 0 2px 0;
   }
 
@@ -766,6 +769,11 @@ body {
     left: 424px;
   }
 
+  .carousel-indicators {
+    top: 436px;
+		left: 526px;
+  }
+
   .about-block__wrap {
     width: 732px;
     height: 342px;
@@ -861,6 +869,11 @@ body {
     letter-spacing: -0.3px;
   }
 
+  .carousel-indicators--white {
+    top: 295px;
+    left: 106px;
+  }
+
   .news-events__wrap {
     width: 403px;
     padding: 27px 0 0 60px;
@@ -883,7 +896,8 @@ body {
   }
 
   .news-event__item {
-    box-sizing: inherit;
+    -moz-box-sizing: inherit;
+         box-sizing: inherit;
     padding-top: 18px;
   }
 
@@ -1096,6 +1110,11 @@ body {
     left: 248px	;
   }
 
+  .carousel-indicators {
+    top: 267px;
+		left: 201px;
+  }
+
   .about-block__wrap {
     width: 444px;
     min-height: 598px;
@@ -1187,6 +1206,11 @@ body {
     letter-spacing: -0.4px;
   }
 
+  .carousel-indicators--white {
+    top: 295px;
+    left: 155px;
+  }
+
   .news-events__wrap {
     width: 376px;
     margin: 89px 0 0 40px;
@@ -1202,7 +1226,8 @@ body {
   }
 
   .news-event__item {
-    box-sizing: inherit;
+    -moz-box-sizing: inherit;
+         box-sizing: inherit;
     padding: 15px 0 5px 0;
   }
 
@@ -1439,6 +1464,11 @@ body {
     font-size: 18px;
   }
 
+  .carousel-indicators {
+    top: 227px;
+		left: 124px;
+  }
+
   .about-block__wrap {
     width: 282px;
     min-height: 598px;
@@ -1530,6 +1560,11 @@ body {
     letter-spacing: 0.4px;
   }
 
+  .carousel-indicators--white {
+    top: 295px;
+    left: 89px;
+  }
+
   .news-events {
     margin-left: -3px;
   }
@@ -1553,7 +1588,8 @@ body {
   }
 
   .news-event__item {
-    box-sizing: inherit;
+    -moz-box-sizing: inherit;
+         box-sizing: inherit;
     padding: 14px 0 7px 0;
   }
 

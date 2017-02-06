@@ -8,9 +8,13 @@
     <title>Pingbuller Bootstrap</title>
 
     <!-- Bootstrap -->
+    <!--[if lt IE 9]>
+      <link rel="stylesheet" type="text/css" href="css/ie8.css">
+    <![endif]-->
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/ie8.css"> -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -69,29 +73,27 @@
         </div>
       </div>
       <!--slider-->
-      <div class="header-slider container-fluid">
-        <div class="header-slider__wrap row">
-          <article class="header-slider__item">
-            <h1 class="header-slider__title">Lorem Ipsum Dolor</h1>
-            <h2 class="header-slider__subtitle">It will make all of your dreams come <span class="hidden768 hidden480 hidden320">true</span></h2>
-            <div class="header-slider__text hidden480 hidden320">
-              <p class="header-slider__paragraph">Semper sollicitudin gravida eget, ves-tibulum sit amet sapien. Nunc dignis-sim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit est <span class="hidden768">at volutpat. Morbi elementum euismod lacus id semper. In odio nunc, imperdiet eget aliquam quis, euismod id lectus. Nulla interdum arcu et felis aliquam a tempus lectus lobortis.</span></p>
+      <div #id="carousel" class="carousel slide">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel" data-slide="0"></li>
+          <li class="active" data-target="#carousel" data-slide="1"></li>
+          <li data-target="#carousel" data-slide="2"></li>
+          <li data-target="#carousel" data-slide="3"></li>
+        </ol>
+        <div class="header-slider container-fluid">
+          <div class="header-slider__wrap row carousel-inner">
+            <article class="header-slider__item active">
+              <h1 class="header-slider__title">Lorem Ipsum Dolor</h1>
+              <h2 class="header-slider__subtitle">It will make all of your dreams come <span class="hidden768 hidden480 hidden320">true</span></h2>
+              <div class="header-slider__text hidden480 hidden320">
+                <p class="header-slider__paragraph">Semper sollicitudin gravida eget, ves-tibulum sit amet sapien. Nunc dignis-sim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit est <span class="hidden768">at volutpat. Morbi elementum euismod lacus id semper. In odio nunc, imperdiet eget aliquam quis, euismod id lectus. Nulla interdum arcu et felis aliquam a tempus lectus lobortis.</span></p>
+              </div>
+            </article>
+            <div class="header-slider__img-wrap hidden320">
+              <img class="hidden480" src="img/iPhone4.png" alt="iPhone4">
+              <img class="hidden960 hidden768" src="img/iPhone4-mini.png" alt="iPhone4">
             </div>
-          </article>
-          <div class="header-slider__img-wrap hidden320">
-            <img class="hidden480" src="img/iPhone4.png" alt="iPhone4">
-            <img class="hidden960 hidden768" src="img/iPhone4-mini.png" alt="iPhone4">
           </div>
-          <!--slider-pagination-->
-          <div class="slider__pagination-wrap">
-            <ul class="slider__pagination">
-              <li class="slider__pagination-item"><a href="#" class="slider__pagination-link"></a></li>
-              <li class="slider__pagination-item"><a href="#" class="slider__pagination-link"></a></li>
-              <li class="slider__pagination-item"><a href="#" class="slider__pagination-link"></a></li>
-              <li class="slider__pagination-item"><a href="#" class="slider__pagination-link"></a></li>
-            </ul>
-          </div>
-
         </div>
       </div>
     </header>
@@ -121,29 +123,28 @@
     <section class="news container-fluid">
       <div class="news__wrap row">
         <div class="news-blog news-blog__wrap col-sm-5 col-md-6 col-lg-6">
-          <div class="">
-            <!--blog-->
-            <article class="news-blog__item">
-              <div class="news__header-wrap">
-                <h2 class="news__header">Pingbuller</h2>
-                <h2 class="news__header news__header--light">starts here</h2>
-              </div>
-              <div class="news-blog__img-wrap">
-                <img src="img/blog-photo1.png" alt="photo1">
-              </div>
-              <div class="news-blog__text">
-                <p class="news-blog__paragraph">“Nunc turpis neque, feu-giat eget eleifend et, lacinia non neque. Prae-sent rhoncus ultrices po-suere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae <span class="hidden320">lectus eu libero pellentesque pulvinar <span class="hidden768">urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.”</span></span></p>
-              </div>
-            </article>
-            <!--slider-pagination-->
-            <div class="slider__pagination-wrap--white">
-              <ul class="slider__pagination">
-                <li class="slider__pagination-item"><a href="#" class="slider__pagination-link--white"></a></li>
-                <li class="slider__pagination-item"><a href="#" class="slider__pagination-link--white"></a></li>
-                <li class="slider__pagination-item"><a href="#" class="slider__pagination-link--white"></a></li>
-                <li class="slider__pagination-item"><a href="#" class="slider__pagination-link--white"></a></li>
-              </ul>
+          <!--blog-->
+          <div #id="carousel" class="carousel slide">
+            <div class="carousel-inner">
+              <article class="news-blog__item active">
+                <div class="news__header-wrap">
+                  <h2 class="news__header">Pingbuller</h2>
+                  <h2 class="news__header news__header--light">starts here</h2>
+                </div>
+                <div class="news-blog__img-wrap">
+                  <img src="img/blog-photo1.png" alt="photo1">
+                </div>
+                <div class="news-blog__text">
+                  <p class="news-blog__paragraph">“Nunc turpis neque, feu-giat eget eleifend et, lacinia non neque. Prae-sent rhoncus ultrices po-suere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae <span class="hidden320">lectus eu libero pellentesque pulvinar <span class="hidden768">urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.”</span></span></p>
+                </div>
+              </article>
             </div>
+            <ol class="carousel-indicators--white">
+              <li data-target="#carousel" data-slide="0"></li>
+              <li class="active" data-target="#carousel" data-slide="1"></li>
+              <li data-target="#carousel" data-slide="2"></li>
+              <li data-target="#carousel" data-slide="3"></li>
+            </ol>
           </div>
         </div>
         <!--news block-->
