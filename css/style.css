@@ -497,7 +497,8 @@ body {
 
     max-height: 170px;
     margin-bottom: 18px;
-  }
+  }
+
   .news__wrap {
     width: 960px;
     height: 484px;
@@ -562,7 +563,10 @@ body {
   .news-events__wrap {
     width: 450px;
     padding: 9px 0 0 12px;
-  }  .news-event__title {    margin: 3px 0 5px 0;
+  }
+
+  .news-event__title {
+    margin: 3px 0 5px 0;
   }
 
   .news-event__item {
@@ -918,7 +922,8 @@ body {
   .comment__item {
     padding-right: 25px;
     padding-left: 0;
-  }
+  }
+
   .comment__item--center {
     padding-left: 18px;
   }
@@ -926,7 +931,8 @@ body {
   .comment__item--right {
     padding-right: 0;
     padding-left: 35px;
-  }
+  }
+
   .comment-text {
     padding-top: 9px;
 
@@ -974,7 +980,9 @@ body {
   .main-nav__logo-wrap {
     margin-bottom: 8px;
     padding-left: 43px;
-  }  .main-nav__logo-link:visited {
+  }
+
+  .main-nav__logo-link:visited {
     text-decoration: none;
 
     color: #fff;
@@ -1268,7 +1276,8 @@ body {
     height: 201px;
     margin: 0 auto;
     padding: 0;
-  }
+  }
+
   .page-footer__nav-wrap {
     padding: 45px 0 0 21px;
   }
@@ -1281,11 +1290,11 @@ body {
     padding-top: 1px;
 
     border: none;
-    background: none;    box-shadow: none;
+    background: none;
+    box-shadow: none;
   }
 
-  .main-nav__list-item--footer {
-    display: inline-block;
+  .main-nav__list-item--footer {    display: inline-block;
 
     margin-right: 23px;
   }
@@ -1440,10 +1449,10 @@ body {
     position: relative;
 
     margin: 0 0 20px 60px;
-    padding: 0;  }
+    padding: 0;
+  }
 
-  .about-block-item__wrap::before {
-    top: 1px;
+  .about-block-item__wrap::before {    top: 1px;
     left: -54px;
   }
 
@@ -1451,7 +1460,8 @@ body {
     position: relative;
 
     margin: 0 0 35px 60px;
-    padding: 0;  }
+    padding: 0;
+  }
 
   .about-block-item__wrap--center::before {
     top: 1px;
@@ -1462,10 +1472,10 @@ body {
     position: relative;
 
     margin-left: 60px;
-    padding: 0;  }
+    padding: 0;
+  }
 
-  .about-block-item__wrap--right::before {
-    top: 1px;
+  .about-block-item__wrap--right::before {    top: 1px;
     left: -54px;
   }
 
@@ -1492,12 +1502,12 @@ body {
 
   .news-blog__wrap {
     margin-left: 23px;
-    padding: 0;  }
-
-  .news-blog__item {
-    width: 256px;
-    height: 272px;    padding: 25px 0 0 35px;
+    padding: 0;
   }
+
+  .news-blog__item {    width: 256px;
+    height: 272px;
+    padding: 25px 0 0 35px;  }
 
   .news__header {
     font-size: 24px;
