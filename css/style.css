@@ -183,6 +183,7 @@ body {
 .about-block__title {
   letter-spacing: -0.3px;
   text-transform: uppercase;
+
   color: #fff;
   text-shadow: 1px 1px 0 #0f1518;
 
@@ -493,10 +494,10 @@ body {
 
   .about-block__text {
     overflow: hidden;
+
     max-height: 170px;
-
-    margin-bottom: 18px;  }
-
+    margin-bottom: 18px;
+  }
   .news__wrap {
     width: 960px;
     height: 484px;
@@ -560,10 +561,8 @@ body {
 
   .news-events__wrap {
     width: 450px;
-    padding: 9px 0 0 12px;  }
-
-  .news-event__title {
-    margin: 3px 0 5px 0;
+    padding: 9px 0 0 12px;
+  }  .news-event__title {    margin: 3px 0 5px 0;
   }
 
   .news-event__item {
@@ -580,6 +579,7 @@ body {
     height: 117px;
     margin: 0 auto;
     padding-top: 25px;
+
     font-size: 0;
   }
 
@@ -614,6 +614,7 @@ body {
   .comment__item--right {
     padding-right: 0;
     padding-left: 40px;
+
     letter-spacing: -0.3px;
   }
 
@@ -792,7 +793,7 @@ body {
   .about-block-item__wrap--center::before {
     top: 2px;
     left: -53px;
-	}
+  }
 
   .about-block-item__wrap--right {
     position: relative;
@@ -805,7 +806,7 @@ body {
   .about-block-item__wrap--right::before {
     top: 2px;
     left: -53px;
-	}
+  }
 
   .about-block__title {
     margin: 0 0 3px;
@@ -813,9 +814,10 @@ body {
 
   .about-block__text {
     overflow: hidden;
-    max-height: 210px;
 
-    margin-bottom: 4px;  }
+    max-height: 210px;
+    margin-bottom: 4px;
+  }
 
   .about-block__link {
     padding-right: 8px;
@@ -857,7 +859,8 @@ body {
 
   .news-events__wrap {
     width: 403px;
-    padding: 27px 0 0 60px;  }
+    padding: 27px 0 0 60px;
+  }
 
   .news__header--biger {
     letter-spacing: -0.2px;
@@ -889,6 +892,7 @@ body {
     height: 118px;
     margin: 0 auto;
     padding-top: 25px;
+
     font-size: 0;
   }
 
@@ -1275,8 +1279,8 @@ body {
 
   .page-footer .main-nav__list:hover {
     padding-top: 1px;
-    border: none;
 
+    border: none;
     background: none;    box-shadow: none;
   }
 
@@ -1434,8 +1438,8 @@ body {
 
   .about-block-item__wrap {
     position: relative;
-    margin: 0 0 20px 60px;
 
+    margin: 0 0 20px 60px;
     padding: 0;  }
 
   .about-block-item__wrap::before {
@@ -1445,8 +1449,8 @@ body {
 
   .about-block-item__wrap--center {
     position: relative;
-    margin: 0 0 35px 60px;
 
+    margin: 0 0 35px 60px;
     padding: 0;  }
 
   .about-block-item__wrap--center::before {
@@ -1456,8 +1460,8 @@ body {
 
   .about-block-item__wrap--right {
     position: relative;
-    margin-left: 60px;
 
+    margin-left: 60px;
     padding: 0;  }
 
   .about-block-item__wrap--right::before {
