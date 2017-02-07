@@ -657,6 +657,7 @@ body {
 
   .page-footer__design {
     padding: 10px 0 0 103px;
+    letter-spacing: -0.3px;
   }
 
   .hidden960 {
@@ -1267,7 +1268,7 @@ body {
   .main-nav__list-item--footer {
     display: inline-block;
 
-    margin-right: 10px;
+    margin-right: 23px;
   }
 
   .main-nav__list-item--footer:first-child + * + * + * + * + * {
