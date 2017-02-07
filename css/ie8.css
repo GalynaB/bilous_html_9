@@ -24,6 +24,7 @@ body {
   border-bottom: 1px solid #33253a;
   background: #ead2d5 url("../img/background.jpg") center no-repeat;
   background-size: cover;
+  -ms-behavior: url(js/backgroundsize.min.htc);
 }
 
 .page-header__nav-wrap {
