@@ -94,12 +94,12 @@ body {
 
 .carousel-indicators li {
   border-radius: 10px;
-  behavior: url("../js/PIE.htc");
+  behavior: url("/js/PIE.htc");
 }
 
 .carousel-indicators--white li {
   border-radius: 10px;
-  behavior: url("../js/PIE.htc");
+  behavior: url("/js/PIE.htc");
 }
 
 .header-slider {
@@ -995,7 +995,7 @@ body {
   .main-nav__submenu,
   .main-nav__list:hover {
     border-radius: 10px;
-    behavior: url("../js/PIE.htc");
+    behavior: url("/js/PIE.htc");
     background-color: #3b2e43;
   }
 
@@ -1005,14 +1005,14 @@ body {
     border: 1px solid #051116;
     border-bottom: none;
     border-radius: 10px 10px 0 0;
-    behavior: url("../js/PIE.htc");
+    behavior: url("/js/PIE.htc");
   }
 
   .main-nav__list:hover .main-nav__submenu {
     display: block;
 
     border-radius: 0 0 10px 10px;
-    behavior: url("../js/PIE.htc");
+    behavior: url("/js/PIE.htc");
   }
 
   .main-nav__link {
@@ -1032,7 +1032,7 @@ body {
 
   .main-nav__list > li >a:active {
     border-radius: 10px 10px 0 0;
-    behavior: url("../js/PIE.htc");
+    behavior: url("/js/PIE.htc");
   }
 
   .header-slider {
@@ -1346,7 +1346,7 @@ body {
   .main-nav__submenu,
   .main-nav__list:hover {
     border-radius: 10px;
-    behavior: url("../js/PIE.htc");
+    behavior: url("/js/PIE.htc");
     background-color: #3b2e43;
   }
 
@@ -1356,14 +1356,14 @@ body {
     border: 1px solid #051116;
     border-bottom: none;
     border-radius: 10px 10px 0 0;
-    behavior: url("../js/PIE.htc");
+    behavior: url("/js/PIE.htc");
   }
 
   .main-nav__list:hover .main-nav__submenu {
     display: block;
 
     border-radius: 0 0 10px 10px;
-    behavior: url("../js/PIE.htc");
+    behavior: url("/js/PIE.htc");
   }
 
   .main-nav__link {
@@ -1383,7 +1383,7 @@ body {
 
   .main-nav__list > li >a:active {
     border-radius: 10px 10px 0 0;
-    behavior: url("../js/PIE.htc");
+    behavior: url("/js/PIE.htc");
   }
 
   .header-slider {
