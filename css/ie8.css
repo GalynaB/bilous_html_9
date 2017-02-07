@@ -94,19 +94,19 @@ body {
 
 .carousel-indicators li {
   border-radius: 10px;
-  behavior: url("../js/PIE.htc");
+  behavior: url("js/PIE.htc");
 }
 
 .carousel-indicators--white li {
   border-radius: 10px;
-  behavior: url("../js/PIE.htc");
+  behavior: url("js/PIE.htc");
 }
 
 .header-slider {
   height: 400px;
 
   background: transparent;
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#BF000000,endColorstr=#BF000000)";
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#33000000,endColorstr=#33000000)";
 }
 
 .header-slider__wrap {
