@@ -1267,7 +1267,7 @@ body {
   .main-nav__list-item--footer {
     display: inline-block;
 
-    margin-right: 23px;
+    margin-right: 15px;
   }
 
   .main-nav__list-item--footer:first-child + * + * + * + * + * {
