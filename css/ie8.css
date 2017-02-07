@@ -534,23 +534,6 @@ body {
     font-size: 16px;
   }
 
-  .news-blog__item:before {
-    position: absolute;
-    top: 274px;
-    left: 380px;
-
-    display: block;
-
-    width: 0;
-    height: 0;
-
-    content: "";
-
-    border-top: 21px solid #fff;
-    border-left: 21px solid transparent;
-    border: 1px solid #e6e6e6;
-  }
-
   .news-events__wrap {
     width: 450px;
     padding: 9px 0 0 12px;
@@ -669,7 +652,7 @@ body {
   }
 
   .main-nav__link--footer {
-    letter-spacing: 0.5px;
+    letter-spacing: 0.7px;
   }
 
   .page-footer__design {
