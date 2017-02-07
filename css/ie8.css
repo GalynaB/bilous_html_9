@@ -1270,7 +1270,7 @@ body {
     margin-right: 23px;
   }
 
-  .main-nav__list-item--footer:last-child {
+  .main-nav__list-item--footer:first-child + * + * + * + * + * {
     margin-right: 0;
   }
 
