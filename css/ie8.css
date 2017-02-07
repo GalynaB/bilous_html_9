@@ -998,6 +998,8 @@ body {
     border-radius: 10px;
     behavior: url("js/PIE.htc");
     background-color: #3b2e43;
+    background: transparent;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#E63b2e43,endColorstr=#E63b2e43)";
   }
 
   .main-nav__list:hover {
