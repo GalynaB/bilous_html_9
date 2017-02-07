@@ -43,7 +43,6 @@ body {
   text-transform: uppercase;
 
   color: #fff;
-  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
 
   font-family: "League Gothic";
   font-size: 48px;
@@ -76,7 +75,6 @@ body {
   text-transform: uppercase;
 
   color: #fff;
-  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
 
   font-size: 24px;
 }
@@ -96,28 +94,26 @@ body {
 
 .carousel-indicators li {
   border-radius: 10px;
-  behavior: url("../js/PIE.htc");
+  behavior: url("js/PIE.htc");
 }
 
 .carousel-indicators--white li {
   border-radius: 10px;
-  behavior: url("../js/PIE.htc");
+  behavior: url("js/PIE.htc");
 }
 
 .header-slider {
   height: 400px;
 
+  background: transparent;
   background-color: rgba(0, 0, 0, 0.2);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000)";
 }
 
 .header-slider__wrap {
   position: relative;
 
   margin: 0 auto;
-}
-
-.header-slider__item {
-  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
 }
 
 .header-slider__title {
@@ -139,7 +135,7 @@ body {
   border-bottom: 1px solid #f9f9f9;
   background-color: #745083;
   background-image: linear-gradient(#745083, #322539);
-  box-shadow: 0px 4px 30px 0px rgba(32, 25, 39, 0.3);
+  behavior: url("../js/PIE.htc");
 }
 
 .about-block-item__wrap::before {
@@ -218,8 +214,6 @@ body {
   text-transform: uppercase;
 
   color: #ffffff;
-  text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
-
   font-family: "League Gothic";
   font-size: 18px;
   line-height: 24px;
@@ -249,7 +243,7 @@ body {
   overflow: hidden;
 
   background-color: #fff;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e6e6e6;
 }
 
 .news__header,
@@ -361,7 +355,6 @@ body {
   text-decoration: none;
 
   color: #fff;
-  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
 
   font-size: 20px;
   line-height: 24px;
@@ -380,7 +373,6 @@ body {
 
 .page-footer__design {
   color: #fff;
-  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
 
   font-size: 12px;
   line-height: 16px;
@@ -522,23 +514,6 @@ body {
     padding: 10px 0 0 39px;
 
     font-size: 0;
-  }
-
-  .news-blog__item::before {
-    position: absolute;
-    top: 274px;
-    left: 380px;
-
-    display: block;
-
-    width: 0;
-    height: 0;
-
-    content: "";
-
-    border-top: 21px solid #fff;
-    border-left: 21px solid transparent;
-    box-shadow: 1px 0 2px 0 rgba(0, 0, 0, 0.05);
   }
 
   .news__header,
@@ -1027,15 +1002,14 @@ body {
 
   .submain-nav__list-item,
   .main-nav__list:hover {
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
-    box-shadow: inset 0 -1px 0 rgba(105, 82, 114, 0.59);
+    border: 1px solid #2c2332;
   }
 
   .main-nav__submenu,
   .main-nav__list:hover {
     border-radius: 10px;
+    behavior: url("../js/PIE.htc");
     background-color: #3b2e43;
-    background-color: rgba(59, 46, 67, 0.9);
   }
 
   .main-nav__list:hover {
@@ -1044,12 +1018,14 @@ body {
     border: 1px solid #051116;
     border-bottom: none;
     border-radius: 10px 10px 0 0;
+    behavior: url("../js/PIE.htc");
   }
 
   .main-nav__list:hover .main-nav__submenu {
     display: block;
 
     border-radius: 0 0 10px 10px;
+    behavior: url("../js/PIE.htc");
   }
 
   .main-nav__link {
@@ -1064,11 +1040,12 @@ body {
     margin-bottom: -2px;
 
     color: #fff;
-    background-color: rgba(44,35,50, 0.9);
+    background-color: #2c2332;
   }
 
   .main-nav__list > li >a:active {
     border-radius: 10px 10px 0 0;
+    behavior: url("../js/PIE.htc");
   }
 
   .header-slider {
@@ -1081,8 +1058,6 @@ body {
 
   .header-slider__item {
     padding-left: 30px;
-
-    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
   }
 
   .header-slider__title {
@@ -1379,15 +1354,14 @@ body {
 
   .submain-nav__list-item,
   .main-nav__list:hover {
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
-    box-shadow: inset 0 -1px 0 rgba(105, 82, 114, 0.59);
+    border: 1px solid #2c2332;
   }
 
   .main-nav__submenu,
   .main-nav__list:hover {
     border-radius: 10px;
+    behavior: url("../js/PIE.htc");
     background-color: #3b2e43;
-    background-color: rgba(59, 46, 67, 0.9);
   }
 
   .main-nav__list:hover {
@@ -1396,12 +1370,14 @@ body {
     border: 1px solid #051116;
     border-bottom: none;
     border-radius: 10px 10px 0 0;
+    behavior: url("../js/PIE.htc");
   }
 
   .main-nav__list:hover .main-nav__submenu {
     display: block;
 
     border-radius: 0 0 10px 10px;
+    behavior: url("../js/PIE.htc");
   }
 
   .main-nav__link {
@@ -1416,11 +1392,12 @@ body {
     margin-bottom: -2px;
 
     color: #fff;
-    background-color: rgba(44,35,50, 0.9);
+    background-color: #2c2332;
   }
 
   .main-nav__list > li >a:active {
     border-radius: 10px 10px 0 0;
+    behavior: url("../js/PIE.htc");
   }
 
   .header-slider {
