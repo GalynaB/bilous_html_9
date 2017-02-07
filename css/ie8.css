@@ -94,6 +94,16 @@ body {
   border-bottom: 2px solid #edbfff;
 }
 
+.carousel-indicators li {
+  border-radius: 10px;
+  behavior: url("../js/PIE.htc");
+}
+
+.carousel-indicators--white li {
+  border-radius: 10px;
+  behavior: url("../js/PIE.htc");
+}
+
 .header-slider {
   height: 400px;
 
