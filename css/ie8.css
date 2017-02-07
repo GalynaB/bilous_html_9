@@ -1265,7 +1265,8 @@ body {
     padding-top: 1px;
 
     border: none;
-    background: none;
+    background: transparent;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000,endColorstr=#00000000)";
   }
 
   .main-nav__list-item--footer {
