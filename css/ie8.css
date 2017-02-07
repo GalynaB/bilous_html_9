@@ -94,20 +94,19 @@ body {
 
 .carousel-indicators li {
   border-radius: 10px;
-  behavior: url("js/PIE.htc");
+  behavior: url("../js/PIE.htc");
 }
 
 .carousel-indicators--white li {
   border-radius: 10px;
-  behavior: url("js/PIE.htc");
+  behavior: url("../js/PIE.htc");
 }
 
 .header-slider {
   height: 400px;
 
   background: transparent;
-  background-color: rgba(0, 0, 0, 0.2);
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000)";
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#BF000000,endColorstr=#BF000000)";
 }
 
 .header-slider__wrap {
@@ -403,7 +402,7 @@ body {
   .main-nav__list-item {
     display: inline;
 
-    padding-right: 50px;
+    padding-right: 40px;
   }
 
   .main-nav__list-item:last-child {
